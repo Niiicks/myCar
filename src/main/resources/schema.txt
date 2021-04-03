@@ -1,0 +1,17 @@
+
+CREATE DATABASE `db_my_car`;
+USE `db_my_car`;
+CREATE TABLE `tb_carro` (
+  `placa` varchar(255) NOT NULL,
+  `ano` int(11) DEFAULT NULL,
+  `cor` varchar(15) DEFAULT NULL,
+  `marca` varchar(30) DEFAULT NULL,
+  `modelo` varchar(30) DEFAULT NULL,
+  `valor` double DEFAULT NULL,
+  PRIMARY KEY (`placa`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+INSERT INTO `db_my_car`.`tb_carro` (`placa`, `ano`, `cor`, `marca`, `modelo`, `valor`) VALUES ('abc-1515', '2011', 'preto', 'chevrolet', 'corsa', '26000');
+INSERT INTO `db_my_car`.`tb_carro`(`placa`,`ano`,`cor`,`marca`,`modelo`,`valor`) VALUES('def-2626','2018','branco','fiat','palio','32000');
+INSERT INTO `db_my_car`.`tb_carro`(`placa`,`ano`,`cor`,`marca`,`modelo`,`valor`) VALUES('uau-1010','2020','marrom','fiat','toro','102000');
