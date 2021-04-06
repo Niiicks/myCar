@@ -1,4 +1,4 @@
-<h1 align="center">Nome do Projeto</h1>
+<h1 align="center">MyCar</h1>
 
 <p align="center">Aplicação para testar alguns conhecimentos com o Spring framework, que contém métodos CRUD para carro .</p>
 
