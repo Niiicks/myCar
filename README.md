@@ -18,7 +18,7 @@ Tabela de conteúdos
    * [Tecnologias](#tecnologias)
 <!--te-->
 
-## Pré-requisitos
+### Pré-requisitos
 - `mvn --version`<br>
 você deverá ver a indicação da versão do Maven instalada e
 a versão do JDK, dentre outras. Observe que o JDK é obrigatório, assim como
