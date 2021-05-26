@@ -15,3 +15,4 @@ Esse repositório se refere ao projeto individual para testar alguns conheciment
 - Endpoint com retorno de todos os carros cadastrados.
 - Endpoint com retorno de busca por placa.
 - Endpoint com retorno de busca por marca.
+- Documentação Swagger.
